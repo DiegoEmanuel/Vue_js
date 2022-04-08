@@ -38,19 +38,19 @@
     </v-app-bar>
 
     <v-main>
-      <eloValidation/>
+      <register/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import eloValidation from './components/eloValidation';
+import register from './components/register';
 
 export default {
   name: 'App',
 
   components: {
-    eloValidation,
+    register,
   },
 
   data: () => ({
